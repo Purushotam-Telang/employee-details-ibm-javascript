@@ -9,7 +9,7 @@ function displayEmployees(){
     .map(employee => `<p>${employee.id}: ${employee.name} - ${employee.department} - $${employee.salary}</p>`)
     .join('');
 
-    document.getElementById('employeeDetails').innerHTML = totalEmployees;
+    document.getElementById('employeesDetails').innerHTML = totalEmployees;
 }
 
 function calculateTotalSalaries(){
